@@ -1,0 +1,64 @@
+name: global_care
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  url_launcher: ^6.3.0
+  intl: ^0.19.0
+  shared_preferences: ^2.3.0
+  google_fonts: ^6.2.1
+  fl_chart: ^0.68.0
+  pdf: 3.11.0
+  printing: ^5.12.0
+  http: ^1.2.2
+  firebase_core: ^3.4.0
+  firebase_auth: ^5.6.2
+  cloud_firestore: ^5.4.1
+  flutter_local_notifications: ^16.3.3
+  visibility_detector: ^0.4.0
+  datetime_picker_formfield: ^2.0.0
+  google_sign_in: ^6.2.1
+  google_sign_in_web: ^0.12.4
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/service0.png
+    - assets/images/service1.png
+    - assets/images/service2.png
+    - assets/images/service3.png
+    - assets/images/service4.png
+    - assets/images/service5.png
+    - assets/images/mission.png
+    - assets/images/vision.png
+    - assets/logo.png
+    - assets/Poppins-Bold.ttf
+    - assets/Poppins-SemiBold.ttf
+    - assets/Poppins-Medium.ttf
+    - assets/Poppins-Regular.ttf
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/Poppins-Bold.ttf
+          weight: 700

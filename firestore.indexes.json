@@ -1,0 +1,96 @@
+{
+    "indexes": [{
+            "collectionGroup": "appointments",
+            "queryScope": "COLLECTION",
+            "fields": [
+                { "fieldPath": "doctor", "order": "ASCENDING" },
+                { "fieldPath": "date", "order": "ASCENDING" },
+                { "fieldPath": "status", "order": "ASCENDING" }
+            ]
+        },
+        {
+            "collectionGroup": "appointments",
+            "queryScope": "COLLECTION",
+            "fields": [
+                { "fieldPath": "userId", "order": "ASCENDING" },
+                { "fieldPath": "date", "order": "DESCENDING" }
+            ]
+        },
+        {
+            "collectionGroup": "resources",
+            "queryScope": "COLLECTION",
+            "fields": [
+                { "fieldPath": "department", "order": "ASCENDING" },
+                { "fieldPath": "timestamp", "order": "ASCENDING" }
+            ]
+        },
+        {
+            "collectionGroup": "feedback",
+            "queryScope": "COLLECTION",
+            "fields": [
+                { "fieldPath": "sentiment", "order": "ASCENDING" },
+                { "fieldPath": "rating", "order": "ASCENDING" },
+                { "fieldPath": "timestamp", "order": "ASCENDING" }
+            ]
+        },
+        {
+            "collectionGroup": "resources",
+            "queryScope": "COLLECTION",
+            "fields": [
+                { "fieldPath": "department", "order": "ASCENDING" },
+                { "fieldPath": "timestamp", "order": "DESCENDING" }
+            ]
+        },
+        {
+            "collectionGroup": "appointments",
+            "queryScope": "COLLECTION",
+            "fields": [
+                { "fieldPath": "doctor", "order": "ASCENDING" },
+                { "fieldPath": "date", "order": "DESCENDING" }
+            ]
+        },
+        {
+            "collectionGroup": "appointments",
+            "queryScope": "COLLECTION",
+            "fields": [
+                { "fieldPath": "date", "order": "ASCENDING" },
+                { "fieldPath": "status", "order": "ASCENDING" }
+            ]
+        },
+        {
+            "collectionGroup": "surveys",
+            "queryScope": "COLLECTION",
+            "fields": [
+                { "fieldPath": "department", "order": "ASCENDING" },
+                { "fieldPath": "date", "order": "ASCENDING" }
+            ]
+        },
+        {
+            "collectionGroup": "feedback",
+            "queryScope": "COLLECTION",
+            "fields": [
+                { "fieldPath": "sentiment", "order": "ASCENDING" },
+                { "fieldPath": "read", "order": "DESCENDING" },
+                { "fieldPath": "timestamp", "order": "ASCENDING" }
+            ]
+        },
+        {
+            "collectionGroup": "feedback",
+            "queryScope": "COLLECTION",
+            "fields": [
+                { "fieldPath": "sentiment", "order": "ASCENDING" },
+                { "fieldPath": "timestamp", "order": "ASCENDING" }
+            ]
+        },
+        {
+            "collectionGroup": "feedback",
+            "queryScope": "COLLECTION",
+            "fields": [
+                { "fieldPath": "sentiment", "order": "ASCENDING" },
+                { "fieldPath": "department", "order": "ASCENDING" },
+                { "fieldPath": "timestamp", "order": "DESCENDING" }
+            ]
+        }
+    ],
+    "fieldOverrides": []
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "796479556505",
+    "project_id": "global-care-medical-center",
+    "storage_bucket": "global-care-medical-center.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796479556505:android:6ccbe0fbfd16995df9e108",
+        "android_client_info": {
+          "package_name": "com.example.gcmcc_transfer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRg28NYkSKzu2sdF_QwHdJzxO55jeDwmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

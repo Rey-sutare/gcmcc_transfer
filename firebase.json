@@ -1,0 +1,31 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "global-care-medical-center",
+          "appId": "1:796479556505:android:6ccbe0fbfd16995df9e108",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "global-care-medical-center",
+          "configurations": {
+            "android": "1:796479556505:android:6ccbe0fbfd16995df9e108",
+            "ios": "1:796479556505:ios:837d950ddfe31edef9e108",
+            "macos": "1:796479556505:ios:837d950ddfe31edef9e108",
+            "web": "1:796479556505:web:8580757a3c5c5e20f9e108",
+            "windows": "1:796479556505:web:0aafaea066198d56f9e108"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "database": "default",
+    "location": "asia-southeast1",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}

@@ -21,12 +21,13 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: "AIzaSyD3ePJjiFT7_ouPwqdjj9Yv6FbyUnhrgfs",
-    authDomain: "global-care-medical-cent-ebf7d.firebaseapp.com",
-    projectId: "global-care-medical-cent-ebf7d",
-    storageBucket: "global-care-medical-cent-ebf7d.firebasestorage.app",
-    messagingSenderId: "109312662875",
-    appId: "1:109312662875:web:ba8443cc326e9fcfe30e7e",
-    measurementId: "G-J99LVFZBCK",
+    apiKey: 'AIzaSyC4HA74LsAO8RAXq_DHAOOPzlRkqVvfJX8',
+    appId: '1:848777637127:web:02e5e704257e1a0e31e9a2',
+    messagingSenderId: '848777637127',
+    projectId: 'global-care-mc',
+    authDomain: 'global-care-mc.firebaseapp.com',
+    storageBucket: 'global-care-mc.firebasestorage.app',
+    measurementId: 'G-9CWJ4BTYP7',
   );
+
 }
